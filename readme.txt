@@ -1,0 +1,1 @@
+My notesabout how to use pointer and the pointer concept in  C programming laguage. 
