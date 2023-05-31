@@ -6,7 +6,7 @@ int main(){
 
     typedef union control{   // 因為union是共用記憶體位址, 可以利用 union + struct 技巧來控制內部特定位置的byte ==> 通常用在韌體控制
         int total;    // 4 byte
-        struct{
+        struct{      // 這個struct由 4個char組成 剛好等於一個int的大小
             char light_big;   // 1 byte
             char light_small; // 1 byte
             char sound_big;   // 1 byte
