@@ -28,7 +28,7 @@ int main(){
     setArrayValue(vector, 5 , 45);
 
     printf("\n一維陣列被修改後=\n");
-    //因為vectir陣列式被宣告在main函式中,故setArrayValue()函式結束後陣列沒有被釋放
+    //因為vector陣列式被宣告在main函式中,故setArrayValue()函式結束後陣列沒有被釋放
     for(int i = 0; i< sizeof(vector)/sizeof(int); i++){
         printf("%d ", vector[i]);
     }
